@@ -1,9 +1,10 @@
-baseURL = "www.brainbsod.com"
+baseURL = "/"
+
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Brain BSOD"
+title = "DocDock Documentation"
 theme = "hugo-theme-docdock"
-themesdir = "themes"
+themesdir = "../.."
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
@@ -17,7 +18,7 @@ enableMissingTranslationPlaceholders = false
 # title = "Documentation for Hugo docDock"
 # weight = 1
 # languageName = "English"
-#
+# 
 # [Languages.fr]
 # title = "Documentation du thème docDock"
 # weight = 2
@@ -43,17 +44,17 @@ enableGitInfo = true
 home = [ "HTML", "RSS", "JSON"]
 
 
-#[[menu.shortcuts]]
-#pre = "<h3>More</h3>"
-#name = "<i class='fa fa-github'></i> <label>Github repo</label>"
-#identifier = "ds"
-#url = "https://github.com/vjeantet/hugo-theme-docdock"
-#weight = 10
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-github'></i> <label>Github repo</label>"
+identifier = "ds"
+url = "https://github.com/vjeantet/hugo-theme-docdock"
+weight = 10
 
-#[[menu.shortcuts]]
-#name = "<i class='fa fa-cloud-download'></i> <label>Download</label>"
-#url = "https://github.com/vjeantet/hugo-theme-docdock/archive/master.zip"
-#weight = 11
+[[menu.shortcuts]]
+name = "<i class='fa fa-cloud-download'></i> <label>Download</label>"
+url = "https://github.com/vjeantet/hugo-theme-docdock/archive/master.zip"
+weight = 11
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-bookmark'></i> <label>Hugo Documentation</label>"
