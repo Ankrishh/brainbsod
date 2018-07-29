@@ -1,5 +1,4 @@
-baseURL = ""
-
+baseURL = "www.brainbsod.com"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Brain BSOD"
